@@ -1,29 +1,9 @@
-import{ useState } from 'react';
-//import 'src/App.css';
+import React from 'React';
+import Contador  from './contador'
+import Botao from './Botao'
+import LabemRelogio from './LabelRelogio'
+import './App.css'
 
-const Botao = (props) => (
-    <button onClick={props.onClick}>{props.label}</button>
-)
-
-const LabelRelogio = (props) => (
-    <h1 class="my-title">{props.name}</h1>
-)
-
-function home(){
-    const [number, timer] = useState(0);
-
-    return (
-        <div>
-            <h1>Pagina inutil</h1>
-            <p>You clicked {number} times</p>
-            <button onClick={() => timer(number + 1)}>Clieck me</button>
-        </div>
-    );
-}
-
-const contador = (props) => (
-    <h1 class="my-title">{props.minutos}:{props.segundos}</h1>
-)
 class App extends React.Component {
     constructor(props){
       super(props);
@@ -104,4 +84,4 @@ class App extends React.Component {
     }
   }
   
-  export default {App, contador, LabelRelogio, button};
+  export default App;
