@@ -1,5 +1,8 @@
 import{ useState } from 'react';
 
+data-ad-client="ca-pub-1234567890123456" async 
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+
 function home() {
     return (
         <div>
@@ -8,8 +11,6 @@ function home() {
             </div>
     )
 }
-
-
 function Contador() {
    const [contador,setContador] = useState(1);
 
@@ -20,8 +21,7 @@ return(
 <div>
     <div>{contador}</div>
     <button onClick = {adicionarContador}  >Adicionar Contador</button>
-</div>
-   
+</div> 
 )
 }
 
