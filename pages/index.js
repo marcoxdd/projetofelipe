@@ -1,6 +1,6 @@
 import{ useState } from 'react';
 
-data-ad-client="ca-pub-1234567890123456" async 
+data-ad-client="ca-pub-4490220948438663" async 
 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 
 function home() {
