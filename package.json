@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/marcoxdd/projetofelipe#readme",
   "dependencies": {
+    "google-ads-node": "^3.0.1-beta.10",
     "next": "^10.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
